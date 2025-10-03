@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparative Analysis Notes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 32px;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #4a90e2;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 24px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding: 12px;
+            background: #ecf0f1;
+            border-left: 6px solid #3498db;
+        }
+        h3 {
+            color: #34495e;
+            font-size: 19px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .legend {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+        .legend p {
+            margin: 8px 0;
+            font-size: 15px;
+        }
+        
+        /* Theme colors */
+        .identity { background: #ffcdd2; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #c62828; }
+        .colonialism { background: #ffe0b2; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #e65100; }
+        .gender { background: #c8e6c9; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #2e7d32; }
+        .power { background: #bbdefb; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #1565c0; }
+        .tradition { background: #e1bee7; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #6a1b9a; }
+        .dream { background: #fff9c4; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #f57f17; }
+        .language { background: #ffccbc; padding: 4px 10px; border-radius: 5px; font-weight: bold; color: #d84315; }
+        
+        .quote-box {
+            background: #fffbea;
+            border-left: 5px solid #f39c12;
+            padding: 18px;
+            margin: 15px 0;
+            font-style: italic;
+            color: #555;
+        }
+        .analysis-box {
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            padding: 18px;
+            margin: 15px 0;
+        }
+        .critical {
+            background: #ffeb3b;
+            padding: 3px 8px;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        strong {
+            color: #c0392b;
+        }
+        .parallel-box {
+            background: #e0f2f1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 2px solid #26a69a;
+        }
+        .difference-box {
+            background: #fce4ec;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 2px solid #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 COMPARATIVE ANALYSIS - DETAILED NOTES</h1>
+        <p style="font-size: 16px; margin-bottom: 20px;"><strong>For Terminale BFI DST (12 hours)</strong></p>
+        
+        <div class="legend">
+            <strong style="font-size: 18px;">🎯 THEME COLOR CODE:</strong><br><br>
+            <p><span class="identity">Identity/Alienation</span> - Loss of self, cultural displacement</p>
+            <p><span class="colonialism">Colonialism</span> - Imperial power, oppression</p>
+            <p><span class="gender">Gender/Marriage</span> - Patriarchy, female oppression</p>
+            <p><span class="power">Power Systems</span> - Control, exploitation</p>
+            <p><span class="tradition">Tradition vs Change</span> - Cultural conflict</p>
+            <p><span class="dream">Dreams/Aspirations</span> - Hope, ambition</p>
+            <p><span class="language">Language/Communication</span> - Misunderstanding, barriers</p>
+        </div>
+
+        <!-- WIDE SARGASSO SEA -->
+        <h2>1️⃣ WIDE SARGASSO SEA (Jean Rhys, 1966)</h2>
+        
+        <h3>📖 CONTEXT & STRUCTURE</h3>
+        <ul>
+            <li><strong>Prequel to:</strong> <em>Jane Eyre</em> (Charlotte Brontë) - tells the story of the "mad woman in the attic"</li>
+            <li><strong>Setting:</strong> Jamaica & Dominica, post-Emancipation Act (1834), 1840s</li>
+            <li><strong>Narration:</strong> <span class="critical">Multiple 1st person narrators</span> - Antoinette (Part 1 & 3), Rochester (Part 2), Grace Poole (brief)</li>
+            <li><strong>Effect of structure:</strong> Fragmented, unreliable narration → mimics Antoinette's mental breakdown</li>
+            <li><strong>Genre:</strong> Gothic psychological novel, postcolonial literature</li>
+        </ul>
+
+        <h3>🎨 KEY THEMES WITH NOTES</h3>
+        
+        <p style="margin: 15px 0;"><strong>Theme 1: <span class="identity">IDENTITY ALIENATION & RACIAL LIMINALITY</span></strong></p>
+        <ul>
+            <li>Antoinette = <strong>Creole white</strong> (European descent born in Caribbean)</li>
+            <li>Caught between worlds: <strong>Too "white" for Black Jamaicans</strong> + <strong>Too "colonial" for English whites</strong></li>
+            <li>Called "white cockroach" by Black children</li>
+            <li>Rochester renames her "Bertha" → <span class="critical">Erases her identity completely</span></li>
+        </ul>
+        
+        <div class="quote-box">
+            <strong>QUOTE 1:</strong> "They say when trouble comes close ranks, and so the white people did. But we were not in their ranks." (p. 17)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Shows Antoinette's social exclusion. English colonists reject her family because they're "local" whites who've "gone native." She doesn't belong anywhere = double alienation.
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 2: <span class="gender">MARRIAGE AS POWER/OPPRESSION</span></strong></p>
+        <ul>
+            <li>Marriage to Rochester = <strong>economic transaction</strong> (he gets her £30,000 dowry)</li>
+            <li>Rochester = metaphor for <span class="colonialism">colonial power</span> (takes her money, land, name, freedom)</li>
+            <li>Antoinette loses ALL legal rights after marriage (1840s British law)</li>
+            <li>She becomes his property, literally imprisoned in attic</li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 2:</strong> "All women, all colours, nothing but fools. Three children I have [...] but no husband, I thank my God. I keep my money." (Christophine, p. 109)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Christophine (former slave, Antoinette's nurse) presents alternative model = <strong>female independence</strong>. She refuses marriage because she understands it = trap for women. Her voice = feminist critique of patriarchy.
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 3: <span class="colonialism">COLONIALISM & PSYCHOLOGICAL DESTRUCTION</span></strong></p>
+        <ul>
+            <li>Post-Emancipation Jamaica = unstable (former slaves vs. white plantation owners)</li>
+            <li>Antoinette's family = <strong>ruined by abolition</strong> (lost slave labor, wealth)</li>
+            <li>Rochester comes from England to Jamaica for money → represents colonial exploitation</li>
+            <li>He destroys Antoinette's sanity through <strong>gaslighting, isolation, renaming</strong></li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 3:</strong> "What am I doing in this place and who am I?" (Antoinette, p. 180)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Final disintegration of identity. Locked in English attic, called "Bertha," Antoinette has lost: her name, her country, her freedom, her sanity. This quote = <span class="critical">complete identity erasure</span>. Rhys shows colonialism destroys the colonized psychologically, not just economically.
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 4: <span class="language">TRUTH VS. LIES / UNRELIABLE NARRATION</span></strong></p>
+        <ul>
+            <li>Multiple narrators give <strong>conflicting versions</strong> of events</li>
+            <li>Rochester believes rumors about Antoinette (maybe lies from half-brother Daniel)</li>
+            <li>He can't understand her Caribbean culture → calls it "barbaric"</li>
+            <li>Antoinette and Rochester = <span class="critical">communication failure</span> (cultural/emotional gap)</li>
+        </ul>
+
+        <h3>🔑 LITERARY TECHNIQUES - WSS</h3>
+        <ul>
+            <li><strong>Fragmented narration:</strong> Mirrors Antoinette's fractured psyche</li>
+            <li><strong>Gothic imagery:</strong> Dark forests, fire, mirrors, dreams → madness, entrapment</li>
+            <li><strong>Symbolism:</strong>
+                <ul>
+                    <li><strong>Fire:</strong> Destruction but also cleansing/freedom (she burns Rochester's house)</li>
+                    <li><strong>Mirrors:</strong> Broken identity (Antoinette can't recognize herself)</li>
+                    <li><strong>Red dress:</strong> Passion, sexuality, but also danger</li>
+                </ul>
+            </li>
+            <li><strong>Postcolonial rewriting:</strong> Gives voice to Brontë's silent "madwoman"</li>
+        </ul>
+
+        <!-- THINGS FALL APART -->
+        <h2>2️⃣ THINGS FALL APART (Chinua Achebe, 1958)</h2>
+        
+        <h3>📖 CONTEXT & STRUCTURE</h3>
+        <ul>
+            <li><strong>Purpose:</strong> <span class="critical">Counter European stereotypes of Africa</span> ("savage," "primitive")</li>
+            <li><strong>Setting:</strong> Umuofia village, Igboland (Nigeria), late 1800s-early 1900s</li>
+            <li><strong>Narration:</strong> <span class="critical">3rd person omniscient</span> - objective, documentary-like</li>
+            <li><strong>Effect:</strong> Presents Igbo culture as <strong>complex, sophisticated civilization</strong> (not "primitive")</li>
+            <li><strong>Structure:</strong> Part 1 (Igbo life before), Part 2 (Okonkwo's exile), Part 3 (colonialism arrives)</li>
+        </ul>
+
+        <h3>🎨 KEY THEMES WITH NOTES</h3>
+        
+        <p style="margin: 15px 0;"><strong>Theme 1: <span class="tradition">TRADITION VS. CHANGE / ARRIVAL OF COLONIALISM</span></strong></p>
+        <ul>
+            <li><strong>Part 1 (pre-colonial):</strong> Detailed portrait of Igbo society
+                <ul>
+                    <li>Justice system: Village council, complex legal debates</li>
+                    <li>Religion: Multiple gods (Ani, Agbala), ancestors, rituals</li>
+                    <li>Art: Storytelling, proverbs, music, wrestling</li>
+                    <li>Gender roles: Defined but women have some power (priestess Chielo, first wives)</li>
+                </ul>
+            </li>
+            <li><strong>Part 3 (colonial arrival):</strong> British missionaries + government officials arrive
+                <ul>
+                    <li>Christianity converts outcasts first (twins, osu/outcasts, women seeking escape)</li>
+                    <li>Church = <span class="critical">divides community from within</span></li>
+                    <li>British impose foreign government, jail system, taxes</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 1:</strong> "Age was respected among his people, but achievement was revered. As the elders said, if a child washed his hands he could eat with kings." (Chapter 1)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Establishes Igbo value system = <strong>meritocracy</strong>, not just heredity. Anyone can rise through hard work. Okonkwo = self-made man (father was lazy, he became successful). Shows Igbo society = sophisticated, values achievement.
+        </div>
+
+        <div class="quote-box">
+            <strong>QUOTE 2:</strong> "The white man is very clever. He came quietly and peaceably with his religion. We were amused at his foolishness and allowed him to stay. Now he has won our brothers, and our clan can no longer act like one." (Chapter 20)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Obierika (Okonkwo's friend) explains how colonialism works: <span class="critical">divide and conquer</span>. British didn't arrive with guns first—they used religion to split the community. By the time Igbo people realize the danger, it's too late. Cultural imperialism precedes military conquest.
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 2: <span class="gender">TOXIC MASCULINITY & ITS LIMITS</span></strong></p>
+        <ul>
+            <li>Okonkwo's tragic flaw = <strong>excessive masculinity</strong> (fear of appearing weak like his father)</li>
+            <li>He values: strength, violence, hard work, wealth, many wives</li>
+            <li>He rejects: gentleness, emotion, music, anything "feminine"</li>
+            <li>Results:
+                <ul>
+                    <li>Beats his wives (especially during Week of Peace → sacrilege)</li>
+                    <li>Kills Ikemefuna (adopted son he loves) to avoid looking weak</li>
+                    <li>Alienates his own son Nwoye → Nwoye converts to Christianity partly to escape father</li>
+                </ul>
+            </li>
+            <li><span class="critical">When colonialism makes warrior-masculinity obsolete, Okonkwo has nothing left</span></li>
+        </ul>
+
+        <p style="margin: 15px 0;"><strong>Theme 3: <span class="colonialism">DESTRUCTION OF CIVILIZATION THROUGH MISUNDERSTANDING</span></strong></p>
+        <ul>
+            <li>British and Igbo people = <strong>mutual incomprehension</strong></li>
+            <li>British view Igbo as: savage, primitive, needing "civilization"</li>
+            <li>They don't understand Igbo legal system, religion, social structure</li>
+            <li>Example: District Commissioner writes book <em>"The Pacification of the Primitive Tribes of the Lower Niger"</em> → reduces complex civilization to one paragraph</li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 3:</strong> "He has put a knife on the things that held us together and we have fallen apart." (Chapter 20)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Direct reference to title. The "knife" = colonialism cuts social cohesion. Igbo community held together by: shared religion, customs, language, governance. Christianity + British law = destroy these bonds. <span class="critical">Society "falls apart" from internal division, not just external force.</span>
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 4: <span class="language">LANGUAGE AS CULTURAL POWER</span></strong></p>
+        <ul>
+            <li>Achebe writes in <strong>English but incorporates Igbo words/proverbs</strong></li>
+            <li>Effect: Makes English readers experience linguistic displacement (like colonized people did)</li>
+            <li>Igbo proverbs = "palm oil with which words are eaten" → shows sophisticated oral culture</li>
+            <li>British impose English → <span class="critical">language = tool of control</span></li>
+        </ul>
+
+        <h3>🔑 LITERARY TECHNIQUES - TFA</h3>
+        <ul>
+            <li><strong>Third-person omniscient narration:</strong> Authoritative, documentary-style → preserves Igbo culture for posterity</li>
+            <li><strong>Use of proverbs:</strong> "Among the Igbo the art of conversation is regarded very highly, and proverbs are the palm-oil with which words are eaten"</li>
+            <li><strong>Tragic structure:</strong> Classical tragedy (hubris → downfall)
+                <ul>
+                    <li>Okonkwo's hamartia (tragic flaw) = excessive masculinity/pride</li>
+                    <li>His suicide = final defeat (suicide = abomination in Igbo culture, so he can't even be buried properly)</li>
+                </ul>
+            </li>
+            <li><strong>Irony:</strong>
+                <ul>
+                    <li><strong>Tragic irony:</strong> Okonkwo works his whole life to avoid being weak like his father → ends worse (suicide, no burial)</li>
+                    <li><strong>Dramatic irony:</strong> Readers know colonialism will destroy Igbo world, but characters don't</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- INTIMATE APPAREL -->
+        <h2>3️⃣ INTIMATE APPAREL (Lynn Nottage, 2003)</h2>
+        
+        <h3>📖 CONTEXT & STRUCTURE</h3>
+        <ul>
+            <li><strong>Based on:</strong> Photograph "Unidentified Negro Seamstress, ca. 1905"</li>
+            <li><strong>Setting:</strong> New York City, 1905 (Lower East Side & Manhattan)</li>
+            <li><strong>Form:</strong> <span class="critical">Stage play</span> - realistic, episodic scenes</li>
+            <li><strong>Effect:</strong> Intimate, performance-based → emphasizes <strong>human connection through dialogue</strong></li>
+            <li><strong>Historical context:</strong> Jim Crow segregation, Great Migration beginning, women can't vote</li>
+        </ul>
+
+        <h3>🎨 KEY THEMES WITH NOTES</h3>
+        
+        <p style="margin: 15px 0;"><strong>Theme 1: <span class="dream">THE AMERICAN DREAM & ITS INACCESSIBILITY</span></strong></p>
+        <ul>
+            <li><strong>The Promise:</strong> Work hard → succeed, "streets paved with gold," opportunity for all</li>
+            <li><strong>The Reality for Esther:</strong>
+                <ul>
+                    <li>Works as seamstress for 18 years, saves every penny</li>
+                    <li>Dreams of opening beauty salon for Black women</li>
+                    <li>Can't get business loan without male sponsor (woman + Black = double barrier)</li>
+                    <li>Forced to marry George (Barbadian laborer on Panama Canal) for "respectability"</li>
+                    <li>George steals all her savings (sewn into her quilt) and disappears</li>
+                    <li><span class="critical">18 years of work → destroyed in one night</span></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 1:</strong> "I got a plan. Esther, I'm gonna have me a beauty parlor for colored ladies. A place where they can feel like queens." (Esther, Act 1, Scene 2)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Esther's dream = not just wealth, but <strong>dignity for Black women</strong>. Beauty salon = space of self-care, community, respite from racism. Her dream = service to her community. Shows the American Dream for marginalized people = not individualistic but collective uplift.
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 2: <span class="gender">INTERSECTIONALITY: RACE + GENDER + CLASS</span></strong></p>
+        <ul>
+            <li><strong>Esther:</strong> Black + woman + working-class = <span class="critical">triple oppression</span>
+                <ul>
+                    <li>Skilled seamstress but can't advance without male sponsor</li>
+                    <li>35 years old, unmarried = social shame ("old maid")</li>
+                    <li>Can't read/write well → relies on Mrs. Dickson to write letters to George</li>
+                </ul>
+            </li>
+            <li><strong>Mayme (sex worker):</strong> Black + woman + "immoral" work
+                <ul>
+                    <li>Dreams of being respected blues musician</li>
+                    <li>But Black woman + performer = automatically hypersexualized</li>
+                    <li>"Dreams are fun to have, but they ain't real" → learns cynicism</li>
+                </ul>
+            </li>
+            <li><strong>Mrs. Van Buren:</strong> White + woman + upper-class
+                <ul>
+                    <li>Has wealth but NO autonomy (husband controls everything)</li>
+                    <li>Trapped in loveless marriage, childless, lonely</li>
+                    <li>Desperate for connection → confides in Esther</li>
+                    <li>"Perfect" life = hollow</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 2:</strong> "Friends? How we friends? When I ain't never been through your front door." (Esther to Mrs. Van Buren, Act 2, Scene 3, p. 47)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Exposes the <strong>limits of cross-racial female friendship</strong> under segregation. Mrs. Van Buren thinks they're friends, but Esther must use servants' entrance, can't sit in her parlor. Class and race create insurmountable barriers. Shows how white women benefit from racism even when they're oppressed by sexism.
+        </div>
+
+        <p style="margin: 15px 0;"><strong>Theme 3: <span class="colonialism">COLONIALISM IN THE AMERICAS</span></strong></p>
+        <ul>
+            <li>George works on <strong>Panama Canal</strong> (US imperial project)
+                <ul>
+                    <li>Thousands of Caribbean Black workers die building it</li>
+                    <li>Paid less than white American workers</li>
+                    <li>George = exploited colonial subject</li>
+                </ul>
+            </li>
+            <li>George's letters to Esther = <strong>lies</strong> (written by white prostitute)
+                <ul>
+                    <li>He can barely read/write → hires someone to write romantic letters</li>
+                    <li>Their "romance" = built on false language</li>
+                </ul>
+            </li>
+            <li><strong>Mr. Marks (Jewish fabric merchant):</strong>
+                <ul>
+                    <li>Romanian immigrant, faces anti-Semitism</li>
+                    <li>He and Esther = connection through fabric, letters (he reads/writes for her)</li>
+                    <li>But interracial romance = impossible in 1905 (both would face violence)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p style="margin: 15px 0;"><strong>Theme 4: <span class="language">FABRIC AS LANGUAGE / INTIMACY</span></strong></p>
+        <ul>
+            <li>Esther creates <strong>intimate apparel</strong> = lingerie, corsets, nightgowns</li>
+            <li>She "reads" her clients through their fabric needs:
+                <ul>
+                    <li>Mrs. Van Buren = silk, trying to seduce disinterested husband</li>
+                    <li>Mayme = bold colors, seeks attention but also protection</li>
+                    <li>Esther herself = simple, practical, hides her body</li>
+                </ul>
+            </li>
+            <li><strong>The crazy quilt:</strong> <span class="critical">Central symbol</span>
+                <ul>
+                    <li>Patchwork of colorful fabrics = her 18 years of work</li>
+                    <li>Contains ALL her savings sewn inside</li>
+                    <li>Beautiful, intricate = hope, dreams, skill</li>
+                    <li>George <strong>rips it open</strong>, steals money = dream destroyed</li>
+                    <li>Esther must start NEW quilt = resilience, starting over</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="quote-box">
+            <strong>QUOTE 3:</strong> "The fabric. It tells a story if you listen." (Esther, Act 1, Scene 4)
+        </div>
+        <div class="analysis-box">
+            <strong>Analysis:</strong> Fabric = <strong>language Esther speaks fluently</strong>. She can't read written words well, but she "reads" people through texture, color, fit. Her artistry = form of communication and understanding. The play argues: <span class="critical">skill and craft = dignity, even when society denies formal recognition.</span>
+        </div>
+
+        <h3>🔑 LITERARY TECHNIQUES - IA</h3>
+        <ul>
+            <li><strong>Stage directions:</strong> Intimate, realistic staging → emphasizes human connection</li>
+            <li><strong>Symbolism:</strong>
+                <ul>
+                    <li><strong>Crazy quilt:</strong> American Dream (patchwork = immigrant experience, savings inside = literal dream)</li>
+                    <li><strong>Intimate apparel:</strong> Hidden labor of women, intimacy vs. public facade</li>
+                    <li><strong>Letters:</strong> False communication (George's lies), but also genuine connection (Mr. Marks)</li>
+                </ul>
+            </li>
+            <li><strong>Final image - photograph caption:</strong> "Unidentified Negro Seamstress, ca. 1905"
+                <ul>
+                    <li>Anonymity = history erases marginalized people</li>
+                    <li>But: she's working, surviving, has dignity</li>
+                    <li>Play = act of recovery (giving her a name, story, voice)</li>
+                </ul>
+            </li>
+            <li><strong>Why semi-hopeful ending?</strong>
+                <ul>
+                    <li>Written in 2003 (retrospective view) vs. 1950s-60s (immediate post-colonial trauma)</li>
+                    <li>Esther survives, returns to Mrs. Dickson's boarding house</li>
+                    <li>Starts sewing again = <strong>dignity in labor</strong></li>
+                    <li>Female community (Mrs. Dickson, Mayme) = survival network</li>
+                    <li>Play argues: <span class="critical">survival itself = achievement for marginalized people</span></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- PARALLELS -->
+        <h2>🔗 PARALLELS BETWEEN THE THREE TEXTS</h2>
+        
+        <div class="parallel-box">
+            <h3>1. Colonialism/Power Systems Destroy Individual Lives</h3>
+            <ul>
+                <li><strong>WSS:</strong> British colonialism → Antoinette loses identity, freedom, sanity (renamed "Bertha," imprisoned)</li>
+                <li><strong>TFA:</strong> British colonialism → Igbo culture destroyed, Okonkwo commits suicide</li>
+                <li><strong>IA:</strong> American racism + capitalism → Esther's dream stolen, trapped in poverty</li>
+            </ul>
+            <p><strong>Key insight:</strong> All three texts show <span class="critical">large oppressive systems crush individuals</span>, no matter how hard they try to resist.</p>
+        </div>
+
+        <div class="parallel-box">
+            <h3>2. Identity Crisis Under Oppression</h3>
+            <ul>
+                <li><strong>WSS:</strong> "What am I doing in this place and who am I?" (Antoinette) - total identity erasure</li>
+                <li><strong>TFA:</strong> Okonkwo's entire identity = warrior/achiever → colonialism makes this obsolete → he has nothing left</li>
+                <li><strong>IA:</strong> Esther's identity = seamstress/dreamer → but history only sees "Unidentified Negro Seamstress"</li>
+            </ul>
+            <p><strong>Key insight:</strong> When your <span class="critical">culture/value system is attacked, you lose sense of self.</span></p>
+        </div>
+
+        <div class="parallel-box">
+            <h3>3. Marriage as a Trap (Especially for Women)</h3>
+            <ul>
+                <li><strong>WSS:</strong> Antoinette's marriage → loses money, name, freedom, sanity. Christophine refuses marriage to keep independence.</li>
+                <li><strong>TFA:</strong> Igbo women have limited power. Okonkwo beats his wives, sees them as property.</li>
+                <li><strong>IA:</strong> Esther forced to marry for "respectability" → George steals everything. Mrs. Van Buren trapped in loveless marriage.</li>
+            </ul>
+            <p><strong>Key insight:</strong> Marriage = <span class="critical">economic/social transaction that exploits women</span>, not romantic partnership.</p>
+        </div>
+
+        <div class="parallel-box">
+            <h3>4. "Double Consciousness" of Marginalized People</h3>
+            <ul>
+                <li><strong>WSS:</strong> Antoinette = neither white enough (for English) nor Black enough (for Jamaicans)</li>
+                <li><strong>TFA:</strong> Nwoye + other converts = torn between Igbo tradition and Christianity</li>
+                <li><strong>IA:</strong> Esther navigates white world (Mrs. Van Buren) and Black world (Mayme, Mrs. Dickson), fully accepted by neither</li>
+            </ul>
+            <p><strong>Key insight:</strong> Living <span class="critical">between two worlds</span> = psychological burden of colonized/oppressed people.</p>
+        </div>
+
+        <div class="parallel-box">
+            <h3>5. Language & Communication Failures</h3>
+            <ul>
+                <li><strong>WSS:</strong> Rochester and Antoinette = cultural/emotional gulf, can't understand each other</li>
+                <li><strong>TFA:</strong> British missionaries and Igbo people = linguistic/cultural barriers, talk past each other</li>
+                <li><strong>IA:</strong> Esther and George's romance = built on lies (he can't write, hires prostitute to write letters)</li>
+            </ul>
+            <p><strong>Key insight:</strong> <span class="critical">Miscommunication = tragedy.</span> Colonizer and colonized speak different languages (literal + metaphorical).</p>
+        </div>
+
+        <!-- DIFFERENCES -->
+        <h2>⚡ KEY DIFFERENCES BETWEEN THE TEXTS</h2>
+        
+        <div class="difference-box">
+            <h3>1. NARRATIVE STRUCTURE</h3>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                <tr style="background: #f8bbd0;">
+                    <th style="padding: 12px; border: 1px solid #ddd;">Text</th>
+                    <th style="padding: 12px; border: 1px solid #ddd;">Structure</th>
+                    <th style="padding: 12px; border: 1px solid #ddd;">Effect</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>WSS</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Multiple 1st person narrators (Antoinette, Rochester, Grace)</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Fragmented, unreliable → mimics madness, loss of stable identity</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>TFA</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">3rd person omniscient, linear chronology</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Authoritative, documentary → preserves Igbo culture objectively</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>IA</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Stage play, episodic scenes, realistic dialogue</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Intimate, performance-based → emphasizes human connection</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="difference-box">
+            <h3>2. TONE & ENDING</h3>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                <tr style="background: #f8bbd0;">
+                    <th style="padding: 12px; border: 1px solid #ddd;">Text</th>
+                    <th style="padding: 12px; border: 1px solid #ddd;">Tone</th>
+                    <th style="padding: 12px; border: 1px solid #ddd;">Ending</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>WSS</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Gothic, dreamlike, psychological horror</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><span class="critical">Fully tragic:</span> Antoinette goes mad, sets fire (implied death)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>TFA</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Epic, tragic, elegiac (mourning)</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><span class="critical">Tragic but dignified:</span> Okonkwo's suicide = resistance (refuses to submit)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>IA</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Realistic, warm, bittersweet</td>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><span class="critical">Semi-hopeful:</span> Esther survives, returns to work with dignity</td>
+                </tr>
+            </table>
+            <p style="margin-top: 15px;"><strong>Why the difference?</strong></p>
+            <ul>
+                <li>WSS (1966) & TFA (1958) = written closer to colonial trauma → raw tragedy, no hope</li>
+                <li>IA (2003) = retrospective historical view → emphasizes <strong>resilience and survival</strong></li>
+            </ul>
+        </div>
+
+        <div class="difference-box">
+            <h3>3. GENDER FOCUS</h3>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+                <tr style="background: #f8bbd0;">
+                    <th style="padding: 12px; border: 1px solid #ddd;">Text</th>
+                    <th style="padding: 12px; border: 1px solid #ddd;">Gender Perspective</th>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>WSS</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Explicitly feminist - centers female oppression in marriage + colonialism. Christophine = model of female independence.</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>TFA</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Male-centered (Okonkwo's story), BUT critiques toxic masculinity. Women have limited roles but some power (Chielo the priestess).</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ddd;"><strong>IA</strong></td>
+                    <td style="padding: 10px; border: 1px solid #ddd;">Intersectional feminist - race + gender + class compound oppression. Shows ALL women trapped differently (Esther, Mrs. Van Buren, Mayme).</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="difference-box">
+            <h3>4. REPRESENTATION OF COLONIZERS</h3>
+            <ul>
+                <li><strong>WSS:</strong> Rochester = individual psychological portrait (insecure, cruel, but human). We see his thoughts, fears, desires.</li>
+                <li><strong>TFA:</strong> Missionaries + District Commissioner = faceless system, not individuals. Represents colonial power as institutional force.</li>
+                <li><strong>IA:</strong> White characters mostly offstage or secondary (Mrs. Van Buren = exception). Focus = how the oppressed navigate the system.</li>
+            </ul>
+        </div>
+
+        <div class="difference-box">
+            <h3>5. POSSIBILITY OF HOPE/RESISTANCE</h3>
+            <ul>
+                <li><strong>WSS:</strong> <span class="critical">NO HOPE</span> - Antoinette's only "freedom" = madness/death. Fire = destruction, not liberation.</li>
+                <li><strong>TFA:</strong> <span class="critical">NO HOPE</span> - Tradition destroyed, Okonkwo's suicide = futile gesture. District Commissioner will reduce his life to one paragraph.</li>
+                <li><strong>IA:</strong> <span class="critical">SMALL HOPE</span> - Esther survives, has skill, has community (Mrs. Dickson). Dignity in labor. Female solidarity = survival strategy.</li>
+            </ul>
+            <p><strong>Key insight:</strong> The two novels from the 1950s-60s (decolonization era) end in death. The 2003 play finds resilience in survival itself.</p>
+        </div>
+
+        <!-- ESSAY STRUCTURE -->
+        <h2>📝 SUGGESTED ESSAY STRUCTURE (12-Hour DST)</h2>
+        
+        <div style="background: #e3f2fd; padding: 25px; border-radius: 8px; margin: 20px 0; border: 2px solid #2196f3;">
+            <h3 style="margin-top: 0;">⏰ TIME MANAGEMENT (12 hours)</h3>
+            <ul>
+                <li><strong>Hours 1-2:</strong> Read prompts carefully, choose question, brainstorm themes/quotes</li>
+                <li><strong>Hours 2-4:</strong> Detailed outline with quotes + page numbers</li>
+                <li><strong>Hours 4-9:</strong> Write essay (intro → body paragraphs → conclusion)</li>
+                <li><strong>Hours 9-11:</strong> Revise, check quotes, improve transitions</li>
+                <li><strong>Hours 11-12:</strong> Final proofread for grammar/spelling</li>
+            </ul>
+        </div>
+
+        <h3>INTRODUCTION (1 paragraph, ~150-200 words)</h3>
+        <ol>
+            <li><strong>Hook:</strong> Start with broad statement about colonialism/oppression and identity
+                <ul>
+                    <li>Example: "When oppressive systems collide with individual lives, the result is often a devastating loss of identity and autonomy."</li>
+                </ul>
+            </li>
+            <li><strong>Present the three texts:</strong> Name them + brief context
+                <ul>
+                    <li>"Jean Rhys's <em>Wide Sargasso Sea</em> (1966), Chinua Achebe's <em>Things Fall Apart</em> (1958), and Lynn Nottage's <em>Intimate Apparel</em> (2003) all explore how colonial and patriarchal systems destroy individual dreams and identities."</li>
+                </ul>
+            </li>
+            <li><strong>Thesis statement:</strong> Your main argument (what unites AND distinguishes them)
+                <ul>
+                    <li>Example: "While all three texts depict how colonial and patriarchal systems strip individuals of their identities through marriage, language barriers, and institutional violence, they differ significantly in their narrative strategies, gender perspectives, and visions of resistance—with Rhys and Achebe offering tragic endings rooted in the immediate trauma of decolonization, while Nottage's retrospective view finds dignity in survival itself."</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>BODY PARAGRAPH 1: Parallel - Colonialism Destroys Identity (Comparison)</h3>
+        <ul>
+            <li><strong>Topic sentence:</strong> "All three texts demonstrate how colonial and patriarchal systems systematically erase individual identities."</li>
+            <li><strong>WSS example:</strong> Antoinette loses her name (becomes "Bertha"), her freedom (imprisoned), her sanity</li>
+            <li><strong>TFA example:</strong> Okonkwo's warrior identity becomes obsolete, Igbo culture dismantled</li>
+            <li><strong>IA example:</strong> Esther's skill/dreams reduced to "Unidentified Negro Seamstress" - history erases her</li>
+            <li><strong>Analysis:</strong> Connect to dehumanization under oppression. <span class="critical">Quote all three texts with page numbers!</span></li>
+        </ul>
+
+        <h3>BODY PARAGRAPH 2: Parallel - Marriage as Trap</h3>
+        <ul>
+            <li><strong>Topic sentence:</strong> "All three texts critique marriage as an institution that functions as a microcosm of colonial exploitation."</li>
+            <li><strong>WSS:</strong> Rochester marries for money, takes everything from Antoinette. Christophine's feminist refusal.</li>
+            <li><strong>TFA:</strong> Women have limited power (though some like Chielo the priestess). Okonkwo beats wives.</li>
+            <li><strong>IA:</strong> Esther must marry for respectability → George steals her savings. Mrs. Van Buren trapped despite wealth.</li>
+            <li><strong>Analysis:</strong> Marriage = economic transaction, not partnership. Women = property under patriarchy.</li>
+        </ul>
+
+        <h3>BODY PARAGRAPH 3: Difference - Narrative Structure</h3>
+        <ul>
+            <li><strong>Topic sentence:</strong> "The texts employ radically different narrative strategies that shape how readers understand oppression."</li>
+            <li><strong>WSS:</strong> Fragmented 1st person → unreliable, mimics madness</li>
+            <li><strong>TFA:</strong> 3rd person omniscient → authoritative, documentary-style (preserves Igbo culture)</li>
+            <li><strong>IA:</strong> Stage play → intimate, performance-based (emphasizes dialogue, human connection)</li>
+            <li><strong>Analysis:</strong> Form = content. WSS's fragmentation mirrors mental breakdown; TFA's objectivity = cultural documentation; IA's stagecraft = recovering erased voices.</li>
+        </ul>
+
+        <h3>BODY PARAGRAPH 4: Difference - Hope vs. Despair</h3>
+        <ul>
+            <li><strong>Topic sentence:</strong> "The texts offer vastly different visions of resistance, shaped by their historical distance from colonial trauma."</li>
+            <li><strong>WSS & TFA:</strong> Written in 1950s-60s (immediate post-colonial period) → tragic endings (death/madness). No escape possible.</li>
+            <li><strong>IA:</strong> Written in 2003 (retrospective) → semi-hopeful. Esther survives, has skill, female community supports her.</li>
+            <li><strong>Analysis:</strong> Historical perspective allows Nottage to find resilience. Rhys and Achebe write when tragedy felt total. <span class="critical">Survival itself = achievement for marginalized people.</span></li>
+        </ul>
+
+        <h3>CONCLUSION (1 paragraph, ~150-200 words)</h3>
+        <ol>
+            <li><strong>Restate thesis</strong> in new words (don't copy-paste intro)</li>
+            <li><strong>Broader significance:</strong> What do these texts teach us?
+                <ul>
+                    <li>"Together, these texts reveal that while oppressive systems aim to erase individuals, storytelling itself becomes an act of resistance—preserving voices history tried to silence."</li>
+                </ul>
+            </li>
+            <li><strong>Final powerful thought:</strong>
+                <ul>
+                    <li>"Esther's survival, Okonkwo's defiant suicide, and Antoinette's imagined flight all represent different modes of refusal. Even in destruction, the oppressed refuse to disappear. These texts ensure they are remembered."</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>✅ FINAL TIPS FOR SUCCESS</h2>
+        
+        <div style="background: #c8e6c9; padding: 20px; border-radius: 8px; border: 2px solid #4caf50; margin: 20px 0;">
+            <h3 style="margin-top: 0;">DO:</h3>
+            <ul>
+                <li>✅ Use <strong>specific quotes</strong> with page numbers for EVERY claim</li>
+                <li>✅ <strong>Analyze</strong> quotes (explain HOW they support your point), don't just drop them in</li>
+                <li>✅ Use transition phrases: "Similarly," "In contrast," "Furthermore," "However," "On the other hand"</li>
+                <li>✅ Connect every paragraph back to your <strong>thesis</strong></li>
+                <li>✅ Be precise: "Rhys employs fragmented narration to..." NOT "the author shows..."</li>
+                <li>✅ Compare AND contrast (it's a comparative essay!)</li>
+                <li>✅ Use literary terminology: symbolism, irony, narration, characterization, etc.</li>
+            </ul>
+        </div>
+
+        <div style="background: #ffcdd2; padding: 20px; border-radius: 8px; border: 2px solid #e53935; margin: 20px 0;">
+            <h3 style="margin-top: 0;">DON'T:</h3>
+            <ul>
+                <li>❌ Plot summary instead of analysis</li>
+                <li>❌ Quotes without explanation</li>
+                <li>❌ Forgetting to discuss one of the three texts</li>
+                <li>❌ Weak thesis (make a clear, arguable claim!)</li>
+                <li>❌ Vague statements like "this is interesting" or "the author wants to show"</li>
+                <li>❌ Ignoring the COMPARATIVE aspect (must compare/contrast all three!)</li>
+            </ul>
+        </div>
+
+        <h3>STRONG THESIS EXAMPLES:</h3>
+        <div style="background: #fff9c4; padding: 15px; border-left: 5px solid #fbc02d; margin: 15px 0;">
+            <p><strong>Example 1:</strong> "While Rhys and Achebe depict colonialism as an irreversible tragedy that destroys both individual and collective identity through fragmented narratives and epic tragedy, Nottage's retrospective theatrical vision finds small acts of resilience that allow the oppressed to maintain dignity despite systemic violence, suggesting that survival itself constitutes a form of resistance."</p>
+        </div>
+
+        <div style="background: #fff9c4; padding: 15px; border-left: 5px solid #fbc02d; margin: 15px 0;">
+            <p><strong>Example 2:</strong> "All three texts reveal how marriage functions as a microcosm of colonial power—a seemingly intimate relationship that actually enables economic exploitation and identity erasure—but they differ fundamentally in whether they imagine any escape from this trap, with Rhys and Achebe offering no hope while Nottage finds solidarity in female community."</p>
+        </div>
+
+        <div style="background: #e1f5fe; padding: 25px; border-radius: 10px; margin: 30px 0; text-align: center; border: 3px solid #0288d1;">
+            <h2 style="color: #01579b; margin-bottom: 15px;">🎯 YOU'VE GOT THIS!</h2>
+            <p style="font-size: 18px; color: #0277bd;"><strong>Use these notes to prepare arguments, memorize key quotes, and practice essay structure.</strong></p>
+            <p style="font-size: 16px; margin-top: 10px;">Remember: Every claim needs textual evidence. Analyze, don't summarize. Compare AND contrast. Good luck! 📚✨</p>
+        </div>
+    </div>
+</body>
+</html>
